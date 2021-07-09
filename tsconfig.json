@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "types": [],
+    "strict": true,
+    "outDir": "dist", // Output package contents to dist directory
+    "declaration": true,
+    "rootDir": "src"
+  },
+  "tstl": {
+    "luaTarget": "5.1",
+    "luaBundle": "main.lua",
+    "luaBundleEntry": "index.ts"
+  }
+}

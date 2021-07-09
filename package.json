@@ -1,0 +1,16 @@
+{
+  "name": "tstl-infinite-loop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tstl"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "typescript-to-lua": "^0.40.1"
+  },
+  "dependencies": {
+    "@lucasritter/wdl-ts": "https://github.com/lucasritter/wdl-ts"
+  }
+}
